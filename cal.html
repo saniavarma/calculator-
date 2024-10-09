@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cus.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <form>
+            <p>Casio</p>
+
+            <input type="text" id="screen">
+            <br>
+
+
+            <input type="button" class="buttonno" value="7" onclick="btnclick(value)">
+            
+            <input type="button" class="buttonno" value="8" onclick="btnclick(value)">
+            
+            <input type="button" class="buttonno" value="9"  onclick="btnclick(value)">
+            <input type="button" class="buttonno" value="/"  onclick="btnclick(value)">
+            <br>
+            
+            <input type="button" class="buttonno" value="4"  onclick="btnclick(value)">
+            
+            <input type="button" class="buttonno" value="5"  onclick="btnclick(value)">
+            
+            <input type="button" class="buttonno" value="6"  onclick="btnclick(value)">
+            <input type="button" class="buttonno" value="*"  onclick="btnclick(value)">
+            <br>
+            
+            <input type="button" class="buttonno" value="1"  onclick="btnclick(value)">
+            
+            <input type="button" class="buttonno" value="2"  onclick="btnclick(value)">
+            
+            <input type="button" class="buttonno" value="3"  onclick="btnclick(value)">
+            <input type="button" class="buttonno" value="+"  onclick="btnclick(value)">
+            <br>
+            
+            <input type="button" class="buttonno" id="clear" value="C" onclick="clearscreen()">
+            
+            <input type="button" class="buttonno" value="0"  onclick="btnclick(value)">
+            
+            <input type="button" class="buttonno" value="=" onclick="findResult()">
+            <input type="button" class="buttonno" value="-"  onclick="btnclick(value)">
+
+        </form>
+    </div>
+
+
+    <script src="lator.js"></script>
+    
+</body>
+</html>
